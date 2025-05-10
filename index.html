@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Translator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome1">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Translator App">
+    <meta name="keywords" content="translator, translator app,dictionary,words,sencentes,letters,interpretation,different languages">
+    <meta name="robots" content="nofollow,noindex">
+    <meta name="author" content="Cgr">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <section class="container">
+        <div class="content">
+            <div class="translator__inputs">
+                <textarea class="left__Text" name="left" id="left" placeholder="Enter Text"></textarea>
+                <textarea class="right__Text" name="right" id="right" placeholder="Translation" disabled></textarea>
+            </div>
+            <div class="translation__settings">
+
+                <div class="left__settings">
+                    <img class="left__speaker" src="./setting-icons/speaker-icon.png" alt="speaker" title="left Speaker">
+                    <img class="left__copy" src="./setting-icons/copy-icon.png" alt="left copy" title="Left Copy">
+                    <div class="left__select">
+                        <select class="first__language">
+                           
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="middle__settings">
+                    <img class="exchange"  src="./setting-icons/exchange-icon.png" alt="exchange" title="Exchange">
+                </div>
+
+                <div class="right__settings">
+                    <div class="right__select">
+                        <select class="second__language">
+                            
+                        </select>
+                    </div>
+                    <img class="right__copy" src="./setting-icons/copy-icon.png" alt="right copy" title="rightCopy">
+                    <img class="right__speaker" src="./setting-icons/speaker-icon.png" alt="speaker" title="Right Speaker">
+                </div>
+            </div>
+        </div>
+        <div class="translate__button">
+            <button class="translate__btn">Translate Text</button>
+        </div>
+    </section>
+    
+    
+    <script defer src="app.js" type="text/javascript"></script>
+    <script defer src="languageList.js"></script>
+    <noscript>The app is not running. Please turn your Javascript settings on and then try again.</noscript>
+</body>
+</html>
